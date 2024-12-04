@@ -137,18 +137,31 @@ github로 업로드 (push)
 
 git push origin(리모트명) main (브랜치명)
 - 잘 안됐을 경우 git branch 로 브랜치 명이 맞는지 확인
-- 안맞다면 git branch -m 이전 브랜치명 발꿀 브랜치명
-
- 
+- 안맞다면 git branch -m 이전 브랜치명 바꿀 브랜치명
 
 
 
 
+git pull origin main 으로 가져오고 
+git add * 한 후에 git commit -m "메세지"
+git push origin main 으로 전송
 
 
 
+깃 작업 트리 영역
 
+작업 디렉토리 : 실제 작업중이 파일들이 존재하는 영역
+ - add 
+스테이징 영역 : 작업 디렉토리에서 작업 중인 파일중에 깃이 추척하는 파일들을 식별하는 영역
+ - commit
+로컬 repository(git repository) : 스테이징 영역에서 추적되는 파일이 커밋으로 등록되는 영역
 
+git의 파일 상태 확인
+ - Utracked : git에서 변화를 감지하지 못한 파일 
+ - Tracked : git에서 변화를 감지한 파일
+
+커밋 
+-m 이후 작성될 메세지는 히스토리 추적을 용이하게 돕는 역활을 할 수 있음
 
 
 

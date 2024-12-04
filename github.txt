@@ -130,8 +130,28 @@ git status
 github로 업로드 시도
 remote  설정
 
-처음 연결
-git remote add origin https://github.com/kib09/estGitStudy.git
+처음 연결은  add
+git remote set-url origin https://github.com/kib09/estGitStudy.git
+           
+github로 업로드 (push)
+
+git push origin(리모트명) main (브랜치명)
+- 잘 안됐을 경우 git branch 로 브랜치 명이 맞는지 확인
+- 안맞다면 git branch -m 이전 브랜치명 발꿀 브랜치명
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
